@@ -1,0 +1,165 @@
+ion-nav-bar
+{
+	
+	background: transparent !important;
+	background-color: transparent !important;
+	
+}
+ion-header-bar
+{
+	opacity: 0.5;
+	color: black !important;
+	border: 0px;
+	
+}
+.my-popup
+{
+	height: 100%; 
+	width: 41%; 
+	background: url('../img/black.jpg') !important;
+	opacity: 0; 
+	background: transparent! important;
+}
+.my-content
+{
+	height: 100%;  
+	opacity: 0.6; 
+	font-weight:bold;
+	font-style:italic;
+	background-color: transparent !important;
+}
+.my-list
+{
+	background: grey !important;
+}
+
+.my-item
+{
+	color: white !important;
+	border: 0px;
+	background: transparent !important;
+}
+/* Colors */
+a {
+  text-decoration: none; }
+
+.page .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 5rem;
+  pointer-events: none; }
+.page .content {
+  padding: 1.5rem; }
+  .page .content h2 {
+    font-size: 1.2rem;
+    font-weight: lighter; }
+.page.AppCtrl {
+  background: #303040;
+  color: white; }
+  .page.AppCtrl .icon {
+    fill: white;
+    opacity: 0.2; }
+  .page.AppCtrl .content {
+    color: #ffffff; }
+    .page.AppCtrl .content h1, .page.AppCtrl .content h2 {
+      color: #ffffff; }
+.page.SettingsCtrl {
+  background: #e7e7e7;
+  color: white; }
+  .page.SettingsCtrl .icon {
+    fill: #F00D36;
+    opacity: 0.2; }
+  .page.SettingsCtrl .content select, .page.SettingsCtrl .content input {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-bottom: 1px solid #ff517a;
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem; }
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+/* Empty. Add your own CSS if you like */
+
+.view-with-bg
+{
+  .view-content {
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+  }
+}
+
+.my-button
+{
+	background: transparent;
+	border:0px;
+	font-size:50px;
+	position: absolute; 
+	top: 9%; 
+	left:43%;
+	color: transparent;
+}
+.wrapper {
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    max-width: 100%;
+    border: 0.1em solid rgb(0,0,0);
+    border-radius: 1em;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.item-wrapper {
+  
+   
+    max-width: 100%;
+	 max-height: 100%;
+    border: 0.1em solid rgb(0,0,0);
+    border-radius: 1em;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.page1
+{
+	/*background: url("../img/12.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;*/
+	/*text-align: center;
+	width: 100%;
+	max-height:100%;*/
+	
+	
+}
+.page2
+{
+	/*background: url("../img/2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;*/
+}
+.page3
+{
+	/*background: url("../img/3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;*/
+}
+
+/*SELECT (PAGE NAVIGATION)*/
+select
+{
+	position: absolute; 
+	top: 8px; 
+	left: 16px; 
+	font-size: 12px;
+	opacity: 0.7;
+}
+/*SELECT END*/
